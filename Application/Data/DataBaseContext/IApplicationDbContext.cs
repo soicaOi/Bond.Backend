@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Security;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Data.DataBaseContext;
 
