@@ -4,5 +4,5 @@ namespace Domain.Security;
 
 public class CustomIdentityUser : IdentityUser
 {
-    public FullName Fullname { get; set; } = default!;
+    public FullName FullName { get; set; } = default!;
 }
