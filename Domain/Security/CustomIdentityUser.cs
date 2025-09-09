@@ -1,5 +1,4 @@
-﻿using Domain.ValueObjects;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 
 namespace Domain.Security;
 
