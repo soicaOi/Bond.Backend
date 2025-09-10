@@ -3,4 +3,5 @@
 public interface IApplicationDbContext
 {
     DbSet<CustomIdentityUser> Users { get; set; }
+    DbSet<Post> Posts { get; }
 }

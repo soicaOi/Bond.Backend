@@ -1,9 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿namespace Infrastructure.Data.Configurations;
 
-namespace Infrastructure.Data.Configurations;
-
-public class UserFullNameConfiguration : IEntityTypeConfiguration<CustomIdentityUser>
+public class FullNameConfiguration : IEntityTypeConfiguration<CustomIdentityUser>
 {
     public void Configure(EntityTypeBuilder<CustomIdentityUser> builder)
     {
